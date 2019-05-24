@@ -66,6 +66,6 @@ matrix:
             - ubuntu-toolchain-r-test
             - llvm-toolchain-trusty-7
           packages:
-            - clang-7
+            - clang-7.0
       env:
-         - MATRIX_EVAL="CC=clang-7 && CXX=clang++-7"
+         - MATRIX_EVAL="CC=clang-7.0 && CXX=clang++-7.0"
